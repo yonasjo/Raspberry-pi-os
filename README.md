@@ -6,8 +6,7 @@ The guide walks through the installation wizard, setting up a new virtual machin
 account creation and system setup. The document serves as an installation manual for an OSSP course assignment.
 
 # implementation of system call using pivot_root
-This file explains how to implement a custom system call in a Unix-like system, with a specific mention of iOS.
-It includes code examples for both kernel-space and user-space implementations.
-The kernel part involves defining a syscall number and adding it to the syscall table, while the user space part invokes it via syscall(). 
-It emphasizes that modifying iOS requires jailbreaking, which can be risky. 
-The document is technical and intended for advanced system programming learning.
+ A significant portion of the assignment is dedicated to the implementation of system calls, with a specific emphasis on the pivot_root operation. 
+ The document outlines the step-by-step procedure for this, including creating a new root mount point, mounting the desired root filesystem, 
+ and binding essential file systems.
+ Furthermore, it provides C code examples related to the pivot_root system call, accompanied by compilation and execution instructions.
